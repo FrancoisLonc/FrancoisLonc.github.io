@@ -1,0 +1,127 @@
+<!doctype html>
+    
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Christmas present for the best</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="François Lonc" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+<!-- <audio src="http://www.vorbis.com/music/Hydrate-Kenny_Beltrey.ogg"
+autoplay="autoplay"> </audio> -->
+
+    <div id="bored" class="step" data-x="-1000" data-y="-3500"
+    data-rotate="-90">
+        <p>Découvrez <strong>ImpressBox</strong>, le coffret cadeau avec
+        tout et surtout n'importe quoi dedans (mais le meilleur du
+        n'importe quoi!)</p>
+    </div>
+
+    <div class="step" data-x="-700" data-y="-4300" data-scale="3"
+    data-rotate="-90">
+        <p>
+          Alors qu'allez-vous choisir?
+        <p>
+    </div>
+
+    <div class="fleur">
+    <div class="step" data-x="-1500" data-y="0">
+        <p>Un pull</p>
+    </div>
+
+    <div class="step" data-x="-2500" data-y="-1000" data-rotate="90">
+        <p>Pour résister aux rigoureux hivers lyonnais</p>
+    </div>
+
+    <div class="step" data-x="-1000" data-y="1000">
+        <p>Un rendez vous chez le coiffeur</p>
+    </div>
+    </div>
+    
+    <div class="step feuille" data-x="-1250" data-y="2300"
+    data-rotate="-135">
+        <p>Juste pour le plaisir, parce qu'on est très bien comme ça.</p>
+    </div>
+
+    <div class="fleur">
+    <div class="step" data-x="-500" data-y="2000">
+        <p>Une journée 100% détente</p>
+    </div>
+    </div>
+
+    <div class="step bout" data-x="-500" data-y="2750">
+        <p>Spa ou hammam?</p>
+    </div>
+
+    <div class="fleur">
+    <div class="step" data-x="0" data-y="1000">
+        <p>Une journée sport et détente</p>
+    </div>
+    </div>
+
+    <div class="step feuille" data-x="250" data-y="2300" data-rotate="135">
+        <p>Après l'effort, le réconfort</p>
+    </div>
+
+    <div class="fleur">
+    <div class="step" data-x="500" data-y="0">
+        <p>Un voyage</p>
+    </div>
+    
+    <div class="step" data-x="1500" data-y="-1000" data-rotate="-90">
+        <p>Parce qu'on est jamais content là où l'on est</p>
+    </div>
+    </div>
+
+    <div class="step" data-x="-500" data-y="-1000" data-rotate="-180">
+    </div>
+    
+    <div class="fleur">
+    <div class="step" data-x="-500" data-y="-1000">
+        <p>Un voeux</p>
+    </div>
+  </div>
+
+    <div class="step tige" data-x="-500" data-y="4500" data-rotate="90"
+    data-scale="4">
+        <q>One wish to rule them all</q>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500"
+    data-scale="11">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
